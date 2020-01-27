@@ -1,0 +1,27 @@
+
+{
+  "name": "websocketapp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": false,
+    "start": "node ."
+  },
+  "description": "Basic websocket application",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:Anupam-Panda/websocket.git"
+  },
+  "files": [
+    "package.json",
+    "server.js"
+  ],
+  "author": "Anupam Panda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~3.x",
+    "socket.io": "~2.2.0",
+    "websocket": "~1.0.29",
+    "ws": "~7.1.2"
+  }
+}
